@@ -271,19 +271,29 @@ COUNT(IF [Gender] = "Male" OR [Gender] = "Female" THEN 1 END)
 
 ### **Visual Design**
 
-The visual design of the dashboard focuses on clarity, consistency, and user-friendly aesthetics.
-
-A carefully selected color palette was created using [coolors.co](https://coolors.co/) to ensure visual harmony and improve readability across all charts and sections. The chosen colors help differentiate categories while maintaining a clean and professional look.
-
-In addition, Canva was used to design background elements, contributing to a more polished and visually appealing dashboard layout.
+The visual design of the dashboard focuses on clarity, consistency, and user-friendly aesthetics. A carefully selected color palette was created using [coolors.co](https://coolors.co/) to ensure visual harmony and improve readability across all charts and sections. The chosen colors help differentiate categories while maintaining a clean and professional look. In addition, Canva was used to design background elements, contributing to a more polished and visually appealing dashboard layout.
 
 Overall, the design aims to support data interpretation without overwhelming the user, keeping the focus on insights rather than visual noise.
 
-**Link to the palette:** [click here]()
-**Link to the background:** [click here]()
+**Link to the palette:** [click here](../images/design/mental_health_analysis_palette.pdf)
 
+**Link to the background:** [click here](../images/design/mental_health_analysis_dashboard.png)
 
 ### **Building Visualizations**
+
+**KPI Cards** – Text blocks in the Summary section displaying both absolute and relative values, including total number of employees, average working hours, percentage without access to support, and sleep quality indicators.
+
+**Horizontal Bar Charts** – Widely used across the dashboard to visualize categories with long labels. Applied to show distributions by age group, work format, department, job role, mental health condition, and physical activity levels.
+
+**Pie & Donut Charts** – Used to illustrate proportional distributions within the dataset, such as gender balance (Male/Female) and average stress levels (High/Medium/Low).
+
+**Vertical Column Charts** – Designed for comparing multiple categories, including geographic regions (Oceania, Africa, Asia), overtime levels, and productivity change dynamics.
+
+**Heatmap Matrices** – Used for in-depth cross-analysis of two dimensions: years of experience by gender, and stress levels by employment type (Part-time, Full-time, Overtime), with color intensity representing percentage values.
+
+**Rating Displays** – Simple numeric indicators (e.g., 3/5) showing average scores for social isolation, work-life balance, and company support for remote work.
+
+**Crosstab Tables** – Used for detailed comparison of stress levels (Low, Medium, High) between groups with and without access to mental health resources.
 
 ### **Interactivity**
 
