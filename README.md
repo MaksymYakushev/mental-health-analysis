@@ -37,7 +37,7 @@ Companies and organizations increasingly monitor employee wellbeing to understan
 public tableau project: [click here](https://public.tableau.com/views/mental-health-analysis/Dashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
 project story: [click here](./docs/project_story.md)  
 .twbx project: [click here](./tableau/mental-health-analysis.twbx)  
-.csv dataset: [click here](./data/raw/Impact-of-Remote-Work-on-Mental-Health.csv)  
+.csv dataset: [click here](./data/raw/Impact_of_Remote_Work_on_Mental_Health.csv)  
 .sql cleaning: [click here](./sql/cleaning.sql)  
 
 
