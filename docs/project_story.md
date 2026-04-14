@@ -12,15 +12,13 @@ Each step reflects the reasoning behind key decisions, including data preparatio
 - [Introduction](#introduction)
 - [Data Familiarization: Understand the structure, variables, and content of the dataset](#data-familiarization-understand-the-structure-variables-and-content-of-the-dataset)
 - [Data Cleaning: Preprocess the data by handling missing values, outliers, and inconsistencies to ensure quality for analysis](#data-cleaning-preprocess-the-data-by-handling-missing-values-outliers-and-inconsistencies-to-ensure-quality-for-analysis)
-- [Dashboard Creation: Build interactive dashboards using Tableau to visualize key metrics and patterns in the data](#build-interactive-dashboards-using-tableau-to-visualize-key-metrics-and-patterns-in-the-data)
+- [Dashboard Creation: Build interactive dashboards using Tableau to visualize key metrics and patterns in the data](#dashboard-creation-build-interactive-dashboards-using-tableau-to-visualize-key-metrics-and-patterns-in-the-data)
   - [Intro](#intro)
   - [Data Preparation](#data-preparation)
   - [Dashboard Structure](#dashboard-structure)
-  - [Building Visualizations](#building-visualizations)
   - [Visual Design](#visual-design)
+  - [Building Visualizations](#building-visualizations)
   - [Interactivity](#interactivity)
-  - [Conclusion](conclusion)
-- [Presentation: Summarize findings and insights in a clear and concise presentation to communicate results effectively](#presentation-summarize-findings-and-insights-in-a-clear-and-concise-presentation-to-communicate-results-effectively)
 - [Conclusion](conclusion)
 
 ## Data Familiarization: Understand the structure, variables and content of the dataset
@@ -201,19 +199,23 @@ WHERE
 
 ## **Dashboard Creation: Build interactive dashboards using Tableau to visualize key metrics and patterns in the data**
 
-The Tableau Public Project can be found here: [click here](https://public.tableau.com/app/profile/maksym.yakushev/viz/DA1_MentalHealth/Dashboard)
+The Tableau Public Project can be found here: [click here](https://public.tableau.com/views/mental-health-analysis/Dashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-### Intro
+### **Intro**
 
-### Data Preparation
+This stage focuses on building an interactive Tableau dashboard to transform processed data into clear and meaningful visual insights. The goal is to present key metrics, highlight important patterns, and enable users to explore the data through dynamic filters and intuitive visualizations.
 
-### Dashboard Structure
+### **Data Preparation**
 
-### Building Visualizations
 
-### Visual Design
 
-### Interactivity
+### **Dashboard Structure**
 
-### Conclusion
+### **Visual Design**
+
+### **Building Visualizations**
+
+### **Interactivity**
+
+## **Conclusion**
 
