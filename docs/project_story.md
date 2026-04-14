@@ -12,6 +12,16 @@ Each step reflects the reasoning behind key decisions, including data preparatio
 - [Introduction](#introduction)
 - [Data Familiarization: Understand the structure, variables, and content of the dataset](#data-familiarization-understand-the-structure-variables-and-content-of-the-dataset)
 - [Data Cleaning: Preprocess the data by handling missing values, outliers, and inconsistencies to ensure quality for analysis](#data-cleaning-preprocess-the-data-by-handling-missing-values-outliers-and-inconsistencies-to-ensure-quality-for-analysis)
+- [Dashboard Creation: Build interactive dashboards using Tableau to visualize key metrics and patterns in the data](#build-interactive-dashboards-using-tableau-to-visualize-key-metrics-and-patterns-in-the-data)
+  - [Intro](#intro)
+  - [Data Preparation](#data-preparation)
+  - [Dashboard Structure](#dashboard-structure)
+  - [Building Visualizations](#building-visualizations)
+  - [Visual Design](#visual-design)
+  - [Interactivity](#interactivity)
+  - [Conclusion](conclusion)
+- [Presentation: Summarize findings and insights in a clear and concise presentation to communicate results effectively](#presentation-summarize-findings-and-insights-in-a-clear-and-concise-presentation-to-communicate-results-effectively)
+- [Conclusion](conclusion)
 
 ## Data Familiarization: Understand the structure, variables and content of the dataset
 
@@ -54,7 +64,7 @@ SELECT
 FROM health;
 ```
 
-📊 Result: [View result (.csv)](./data/processed/sanity_check.csv)
+📊 Result: [View result (.csv)](../data/processed/sanity_check.csv)
 
 If I need to see what values exist in the columns I can use the following query
 
@@ -188,3 +198,22 @@ WHERE
 - The data has passed basic quality checks;
 - It is clean, consistent, and free of anomalies or duplicates;
 - The dataset is ready for the next step.
+
+## **Dashboard Creation: Build interactive dashboards using Tableau to visualize key metrics and patterns in the data**
+
+The Tableau Public Project can be found here: [click here](https://public.tableau.com/app/profile/maksym.yakushev/viz/DA1_MentalHealth/Dashboard)
+
+### Intro
+
+### Data Preparation
+
+### Dashboard Structure
+
+### Building Visualizations
+
+### Visual Design
+
+### Interactivity
+
+### Conclusion
+
