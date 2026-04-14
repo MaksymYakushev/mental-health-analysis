@@ -25,7 +25,7 @@ The dataset used in this project is sourced from Kaggle. It's a synthetically ge
 
 ## Data Cleaning: Preprocess the data by handling missing values, outliers and inconsistencies to ensure quality for analysis
 
-🔗 Link to the Cleaning script: [click here](https://github.com/MaksymYakushev/DA1.MentalHealth/blob/main/Cleaning.sql)
+🔗 Link to the Cleaning script: [click here](../sql/cleaning.sql)
 
 Let's start with Dataset overview!
 
@@ -37,7 +37,7 @@ FROM health
 LIMIT 5;
 ```
 
-📊 Result: [View result (.csv)](./data/processed/view_first_5_rows.csv)
+📊 Result: [View result (.csv)](../data/processed/view_first_5_rows.csv)
 
 Next, I have to do a sanity check. For example, making sure that an employee isn't 1 year old or 157 years old and so on. Let's consider the following columns: **age**, **years\_of\_experience**, **hours\_worked\_per\_week**, and **number\_of\_virtual\_meetings**.
 
@@ -64,7 +64,7 @@ SELECT
 FROM health;
 ```
 
-📊 Result: [View result (.csv)](./data/processed/gender_column.csv)
+📊 Result: [View result (.csv)](../data/processed/gender_column.csv)
 
 But if there is a need to view the values for all columns I can use resource-efficient queries for column overview
 
@@ -109,7 +109,7 @@ FROM industry_values
 ...
 ```
 
-📊 Result: [View result (.csv)](./data/processed/resource_efficient_queries.csv)
+📊 Result: [View result (.csv)](../data/processed/resource_efficient_queries.csv)
 
 The next step is checking for duplicates. We can use this fast method
 
@@ -119,7 +119,7 @@ SELECT
 FROM health;
 ```
 
-📊 Result: [View result (.csv)](./data/processed/duplicates_check_fast.csv)
+📊 Result: [View result (.csv)](../data/processed/duplicates_check_fast.csv)
 
 But for a more detailed overview I can execute the following query
 
@@ -163,7 +163,7 @@ SELECT
 FROM health;
 ```
 
-📊 Result: [View result (.csv)](./data/processed/check_nulls.csv)
+📊 Result: [View result (.csv)](../data/processed/check_nulls.csv)
 
 Also this dataset contains ratings and I have to check the columns. According to the criteria ratings can be from 1 to 5. So, let's run the following query
 
@@ -182,7 +182,7 @@ WHERE
   OR company_support_for_remote_work < 1;
 ```
 
-📊 Result: [View result (.csv)](./data/processed/check_rating_columns.csv)
+📊 Result: [View result (.csv)](../data/processed/check_rating_columns.csv)
 
 ✅ **At this stage:**
 - The data has passed basic quality checks;
