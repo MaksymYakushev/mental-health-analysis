@@ -1,1 +1,6 @@
-
+"employee_id","age","gender","job_role","industry","years_of_experience","work_location","hours_worked_per_week","number_of_virtual_meetings","work_life_balance_rating","stress_level","mental_health_condition","access_to_mental_health_resources","productivity_change","social_isolation_rating","satisfaction_with_remote_work","company_support_for_remote_work","physical_activity","sleep_quality","region"
+"EMP0001",32,"Non-binary","HR","Healthcare",13,"Hybrid",47,7,2,"Medium","Depression","No","Decrease",1,"Unsatisfied",1,"Weekly","Good","Europe"
+"EMP0002",40,"Female","Data Scientist","IT",3,"Remote",52,4,1,"Medium","Anxiety","No","Increase",3,"Satisfied",2,"Weekly","Good","Asia"
+"EMP0003",59,"Non-binary","Software Engineer","Education",22,"Hybrid",46,11,5,"Medium","Anxiety","No","No Change",4,"Unsatisfied",5,"None","Poor","North America"
+"EMP0004",27,"Male","Software Engineer","Finance",20,"Onsite",32,8,4,"High","Depression","Yes","Increase",3,"Unsatisfied",3,"None","Poor","Europe"
+"EMP0005",49,"Male","Sales","Consulting",32,"Onsite",35,12,2,"High","None","Yes","Decrease",3,"Unsatisfied",3,"Weekly","Average","North America"

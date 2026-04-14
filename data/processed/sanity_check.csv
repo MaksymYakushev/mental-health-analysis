@@ -1,1 +1,2 @@
-
+"min_age","max_age","min_years_of_experience","max_years_of_experience","min_hours_worked_per_week","max_hours_worked_per_week","min_number_of_virtual_meetings","max_number_of_virtual_meetings"
+22,60,1,35,20,60,0,15
