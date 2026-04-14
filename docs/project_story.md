@@ -207,6 +207,68 @@ This stage focuses on building an interactive Tableau dashboard to transform pro
 
 ### **Data Preparation**
 
+In this step, calculated fields were created in Tableau to enhance the dataset and improve analytical capabilities.
+
+New categorical and numerical variables were introduced to better structure the data and support deeper insights in the dashboard.
+
+Each newly created field was carefully designed to:
+
+- simplify analysis and grouping of key metrics
+- improve data segmentation for visualization
+- enable more meaningful comparisons across different dimensions
+
+In the following sections, several calculated fields will be reviewed individually, explaining their purpose and logic in the context of the dashboard.
+
+**Age Group**
+
+This calculated field groups employees into predefined age ranges to simplify demographic analysis and enable comparison across different age segments. It helps identify patterns related to mental health and work conditions within specific age groups.
+
+```sql
+IF [Age] < 25 THEN "18-24"
+ELSEIF [Age] < 35 THEN "25-34"
+ELSEIF [Age] < 45 THEN "35-44"
+ELSEIF [Age] < 55 THEN "45-54"
+ELSE "55+" END
+```
+
+**Role and Department**
+
+This field combines job role and industry into a single categorical variable. It provides a clearer view of employees’ professional context and allows for more detailed segmentation in the dashboard.
+
+```sql
+[Job Role] + " (" + [Industry] + ")"
+```
+
+**Years of Work**
+
+This calculated field categorizes employees based on their years of experience. It transforms continuous data into grouped intervals, making it easier to analyze trends across different career stages.
+
+```sql
+IF [Years of Experience] < 2 THEN "<1"  
+ELSEIF [Years of Experience] < 4 THEN "1-2"
+ELSEIF [Years of Experience] < 6 THEN "3-5"
+ELSEIF [Years of Experience] < 10 THEN "6-9"
+ELSE "10+" END
+```
+
+**Access to Mental Health Resources** 
+
+This field converts the original categorical variable into a binary format (0/1), where 1 indicates access to mental health resources and 0 indicates no access. This simplifies analysis and enables easier aggregation in visualizations.
+
+```sql
+IF [Access to Mental Health Resources] = "No" THEN 0
+ELSE 1 END
+```
+
+**Percentage Female**
+
+This measure calculates the proportion of female employees within the dataset. It is used to analyze gender distribution and support demographic comparisons across different segments.
+
+```sql
+COUNT(IF [Gender] = "Female" THEN 1 END)
+/
+COUNT(IF [Gender] = "Male" OR [Gender] = "Female" THEN 1 END)
+```
 
 
 ### **Dashboard Structure**
