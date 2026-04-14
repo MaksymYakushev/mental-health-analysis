@@ -15,7 +15,6 @@ Each step reflects the reasoning behind key decisions, including data preparatio
 - [Dashboard Creation: Build interactive dashboards using Tableau to visualize key metrics and patterns in the data](#dashboard-creation-build-interactive-dashboards-using-tableau-to-visualize-key-metrics-and-patterns-in-the-data)
   - [Intro](#intro)
   - [Data Preparation](#data-preparation)
-  - [Dashboard Structure](#dashboard-structure)
   - [Visual Design](#visual-design)
   - [Building Visualizations](#building-visualizations)
   - [Interactivity](#interactivity)
@@ -270,10 +269,19 @@ COUNT(IF [Gender] = "Female" THEN 1 END)
 COUNT(IF [Gender] = "Male" OR [Gender] = "Female" THEN 1 END)
 ```
 
-
-### **Dashboard Structure**
-
 ### **Visual Design**
+
+The visual design of the dashboard focuses on clarity, consistency, and user-friendly aesthetics.
+
+A carefully selected color palette was created using [coolors.co](https://coolors.co/) to ensure visual harmony and improve readability across all charts and sections. The chosen colors help differentiate categories while maintaining a clean and professional look.
+
+In addition, Canva was used to design background elements, contributing to a more polished and visually appealing dashboard layout.
+
+Overall, the design aims to support data interpretation without overwhelming the user, keeping the focus on insights rather than visual noise.
+
+**Link to the palette:** [click here]()
+**Link to the background:** [click here]()
+
 
 ### **Building Visualizations**
 
