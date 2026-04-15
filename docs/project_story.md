@@ -17,7 +17,8 @@ Each step reflects the reasoning behind key decisions, including data preparatio
   - [Data Preparation](#data-preparation)
   - [Visual Design](#visual-design)
   - [Building Visualizations](#building-visualizations)
-  - [Interactivity](#interactivity)
+- [Key Insights](#key-insights)
+- [Limitations](#limitations)
 - [Conclusion](conclusion)
 
 ## Data Familiarization: Understand the structure, variables and content of the dataset
@@ -295,7 +296,38 @@ Overall, the design aims to support data interpretation without overwhelming the
 
 **Crosstab Tables** – Used for detailed comparison of stress levels (Low, Medium, High) between groups with and without access to mental health resources.
 
-### **Interactivity**
+## **Key Insights**
+
+*Note: The insights below are based on overall aggregated data and do not apply filters. They represent general patterns observed across the entire dataset.*
+
+### 1. Critical Indicators (Red Flags 🚩)
+
+**Widespread Mental Health Challenges**  
+Only 23.2% of employees report no mental health conditions. The majority experience burnout (26.1%), depression (25.7%), and anxiety (25.0%). Additionally, 33% of employees exhibit consistently high stress levels, indicating that mental health issues are not isolated but systemic across the workforce.
+
+**Lack of Mental Health Support**  
+More than half of employees (52%) do not have access to mental health resources. This represents a significant gap between employee needs and the support provided by organizations.
+
+**Decline in Productivity**  
+34.4% of employees report decreased productivity. This trend aligns with the overall prevalence of mental health challenges, suggesting a strong relationship between employee well-being and performance outcomes.
+
+
+
+## **Limitations**
 
 ## **Conclusion**
 
+This project demonstrates a complete analytical workflow — from initial data exploration and validation to the development of an interactive and insight-driven dashboard.
+
+The dataset was carefully examined and cleaned to ensure consistency, reliability, and suitability for analysis. Key validation steps, including sanity checks, duplicate detection, and NULL value assessment, confirmed that the data met the required quality standards.
+
+Through the creation of calculated fields and structured categorizations, the dataset was enhanced to support deeper analysis. This allowed for more meaningful segmentation across dimensions such as age, experience, job role, and access to mental health resources.
+
+The final Tableau dashboard translates the processed data into a clear and interactive visual experience. It enables users to:
+
+- quickly understand key metrics through KPI indicators
+- explore relationships between work conditions and mental health
+- compare different demographic and professional groups
+- identify patterns related to stress levels, productivity, and well-being
+
+Overall, the project highlights the importance of combining technical data preparation with thoughtful visualization design. It reflects an analytical approach focused not only on building dashboards, but on uncovering insights and supporting data-driven decision-making.
