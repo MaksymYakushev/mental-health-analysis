@@ -311,6 +311,19 @@ More than half of employees (52%) do not have access to mental health resources.
 **Decline in Productivity**  
 34.4% of employees report decreased productivity. This trend aligns with the overall prevalence of mental health challenges, suggesting a strong relationship between employee well-being and performance outcomes.
 
+### 2. Demographic and Work Context (Who Is at Risk 👥)
+
+This section outlines the core workforce profile and highlights groups potentially more vulnerable to mental health challenges:
+
+**Experienced but Potentially Exhausted Workforce**  
+A significant majority of employees (approximately 74% across both genders) have more than 10 years of experience. While this reflects a highly experienced workforce, it may also indicate a higher risk of long-term fatigue and burnout accumulation.
+
+**Moderate Work-Life Balance and Social Isolation**  
+Both work-life balance and social isolation ratings average around 3 out of 5. This suggests a neutral state — not critical, but not optimal — where employees are neither fully satisfied nor severely impacted, indicating room for improvement.
+
+**Low Physical Activity Levels**  
+33.5% of employees report no physical activity at all. This is a concerning signal, as low physical activity is often associated with poorer mental health outcomes and reduced sleep quality, even though the average sleep rating is reported as “Good.”
+
 
 
 ## **Limitations**
