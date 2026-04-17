@@ -302,31 +302,39 @@ Overall, the design aims to support data interpretation without overwhelming the
 
 ### 1. Critical Indicators (Red Flags 🚩)
 
-**Widespread Mental Health Challenges**  
-Only 23.2% of employees report no mental health conditions. The majority experience burnout (26.1%), depression (25.7%), and anxiety (25.0%). Additionally, 33% of employees exhibit consistently high stress levels, indicating that mental health issues are not isolated but systemic across the workforce.
+ Only 23.2% of employees report no mental health conditions. The majority experience burnout (26.1%), depression (25.7%), and anxiety (25.0%). Additionally, 33% of employees exhibit consistently high stress levels, indicating that mental health issues are not isolated but systemic across the workforce.
 
-**Lack of Mental Health Support**  
 More than half of employees (52%) do not have access to mental health resources. This represents a significant gap between employee needs and the support provided by organizations.
 
-**Decline in Productivity**  
 34.4% of employees report decreased productivity. This trend aligns with the overall prevalence of mental health challenges, suggesting a strong relationship between employee well-being and performance outcomes.
 
 ### 2. Demographic and Work Context (Who Is at Risk 👥)
 
 This section outlines the core workforce profile and highlights groups potentially more vulnerable to mental health challenges:
 
-**Experienced but Potentially Exhausted Workforce**  
 A significant majority of employees (approximately 74% across both genders) have more than 10 years of experience. While this reflects a highly experienced workforce, it may also indicate a higher risk of long-term fatigue and burnout accumulation.
 
-**Moderate Work-Life Balance and Social Isolation**  
-Both work-life balance and social isolation ratings average around 3 out of 5. This suggests a neutral state — not critical, but not optimal — where employees are neither fully satisfied nor severely impacted, indicating room for improvement.
+ Both work-life balance and social isolation ratings average around 3 out of 5. This suggests a neutral state — not critical, but not optimal — where employees are neither fully satisfied nor severely impacted, indicating room for improvement.
 
-**Low Physical Activity Levels**  
 33.5% of employees report no physical activity at all. This is a concerning signal, as low physical activity is often associated with poorer mental health outcomes and reduced sleep quality, even though the average sleep rating is reported as “Good.”
 
+### 3. Workload vs Burnout Paradox
 
+Despite a relatively normal average workload of 39.55 hours per week, only 11.8% of employees experience heavy overtime. This indicates that excessive working hours are not a widespread issue within the organization. However, burnout remains the most common mental health condition (26.1%), creating a clear mismatch between workload intensity and employee well-being.
+
+Burnout within the organization appears to be driven not by the quantity of work, but by qualitative factors such as inefficient processes, lack of managerial support, and communication challenges. This is particularly relevant given that 68% of employees work fully or partially remotely, where collaboration and communication barriers are more likely to occur.
 
 ## **Limitations**
+
+## Limitations
+
+- This analysis is based on a synthetic dataset, which means the findings do not represent real-world employee behavior and should be interpreted for educational and exploratory purposes only.
+
+- The dataset is structured as a single, non-relational table, which limits the ability to perform deeper analysis across multiple dimensions or validate relationships between entities.
+
+- Some variables, such as mental health condition, stress level, and work-life balance, are based on subjective self-reported ratings, which may introduce bias or inconsistencies.
+
+- The absence of a time dimension prevents trend analysis, making it impossible to evaluate how employee well-being evolves over time or in response to changes in work conditions.
 
 ## **Conclusion**
 
