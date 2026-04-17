@@ -326,8 +326,6 @@ Burnout within the organization appears to be driven not by the quantity of work
 
 ## **Limitations**
 
-## Limitations
-
 - This analysis is based on a synthetic dataset, which means the findings do not represent real-world employee behavior and should be interpreted for educational and exploratory purposes only.
 
 - The dataset is structured as a single, non-relational table, which limits the ability to perform deeper analysis across multiple dimensions or validate relationships between entities.
